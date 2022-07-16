@@ -1,3 +1,3 @@
 set -U Z_CMD _z
 
-source z.fish
+source $HOME/.config/fish/conf.d/z.fish
