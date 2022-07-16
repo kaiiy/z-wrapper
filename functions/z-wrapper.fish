@@ -8,6 +8,6 @@ function z-wrapper
             builtin cd $HOME
         end
     else
-        _z $argv[1]
+        z $argv[1]
     end
 end
