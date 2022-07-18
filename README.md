@@ -45,3 +45,8 @@ We recommend adding the following setting in `~/.config/fish/config.fish`.
 ```fish
 alias z="z-wrapper"
 ```
+
+## Notes
+
+- The `z` command has been replaced by `_z`.
+- Don't change the `$Z_CMD` variable.
