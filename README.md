@@ -14,9 +14,9 @@ z-wrapper is a customized [z](https://github.com/jethrokuan/z).
 $ fisher install kaiiy/z-wrapper
 ```
 
-## Usage
+## Usages
 
-### if there is an argument
+### with an argument
 
 z-wrapper behaves the same as z.
 
@@ -24,7 +24,7 @@ z-wrapper behaves the same as z.
 $ z-wrapper [arg]
 ```
 
-### if there is no argument
+### with no argument
 
 1. In `$HOME`
 
@@ -40,7 +40,7 @@ $ z-wrapper
 
 ## Recommendation
 
-We recommend adding the following setting in `~/.config/fish/config.fish`.
+z-wrapper recommends adding the following setting in `~/.config/fish/config.fish`.
 
 ```fish
 alias z="z-wrapper"
