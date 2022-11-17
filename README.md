@@ -2,7 +2,7 @@
 
 z-wrapper is a customized [z](https://github.com/jethrokuan/z).
 
-## Requirement
+## Requirements
 
 - [fish](https://github.com/fish-shell/fish-shell)
 - [Fisher](https://github.com/jorgebucaran/fisher)
