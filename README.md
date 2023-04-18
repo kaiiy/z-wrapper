@@ -16,7 +16,7 @@ $ fisher install kaiiy/z-wrapper
 
 ## Usages
 
-### with an argument
+### With an argument
 
 z-wrapper behaves the same as z.
 
@@ -24,7 +24,7 @@ z-wrapper behaves the same as z.
 $ z-wrapper [arg]
 ```
 
-### with no argument
+### With no argument
 
 1. In `$HOME`
 
