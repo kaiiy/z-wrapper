@@ -30,7 +30,7 @@ $ z-wrapper [arg]
 
 It changes the current directory to the parent directory with the nearest git repository.
 
-2. The Others
+2. In Other Directries
 
 It changes the current directory to `$HOME`.
 
@@ -40,7 +40,7 @@ $ z-wrapper
 
 ## Recommendation
 
-z-wrapper recommends adding the following setting in `~/.config/fish/config.fish`.
+z-wrapper recommends adding the following setting to `~/.config/fish/config.fish`.
 
 ```fish
 alias z="z-wrapper"
