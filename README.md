@@ -1,6 +1,6 @@
 # z-wrapper
 
-z-wrapper is a customized [z](https://github.com/jethrokuan/z).
+z-wrapper is a customized version of [z](https://github.com/jethrokuan/z).
 
 ## Requirements
 
@@ -18,19 +18,19 @@ $ fisher install kaiiy/z-wrapper
 
 ### With an argument
 
-z-wrapper behaves the same as z.
+z-wrapper functions the same as z.
 
 ```sh
 $ z-wrapper [arg]
 ```
 
-### With no argument
+### Without any arguments
 
 1. In `$HOME`
 
-It changes the current directory to the parent directory with the nearest git repository.
+It changes the current directory to the closest parent directory containing a git repository.
 
-2. In Other Directries
+2. In other directries
 
 It changes the current directory to `$HOME`.
 
@@ -40,7 +40,7 @@ $ z-wrapper
 
 ## Recommendation
 
-z-wrapper recommends adding the following setting to `~/.config/fish/config.fish`.
+We recommend adding the following setting to ~/.config/fish/config.fish.
 
 ```fish
 alias z="z-wrapper"
@@ -49,4 +49,4 @@ alias z="z-wrapper"
 ## Notes
 
 - The `z` command has been replaced by `_z`.
-- Don't change the `$Z_CMD` variable.
+- Don't modify the `$Z_CMD` variable.
