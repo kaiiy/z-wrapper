@@ -40,7 +40,7 @@ $ z-wrapper
 
 ## Recommendation
 
-We recommend adding the following setting to ~/.config/fish/config.fish.
+We recommend adding the following setting to `~/.config/fish/config.fish`.
 
 ```fish
 alias z="z-wrapper"
