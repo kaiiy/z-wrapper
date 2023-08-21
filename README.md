@@ -14,7 +14,7 @@ z-wrapper is a customized version of [z](https://github.com/jethrokuan/z).
 $ fisher install kaiiy/z-wrapper
 ```
 
-## Usages
+## Usage
 
 ### With an argument
 
@@ -28,11 +28,11 @@ $ z-wrapper [arg]
 
 1. In `$HOME`
 
-It changes the current directory to the closest parent directory containing a git repository.
+Changes the current directory to the nearest parent directory containing a git repository.
 
-2. In other directries
+2. In other directories
 
-It changes the current directory to `$HOME`.
+Changes the current directory to `$HOME`.
 
 ```sh
 $ z-wrapper
@@ -40,7 +40,7 @@ $ z-wrapper
 
 ## Recommendation
 
-We recommend adding the following setting to `~/.config/fish/config.fish`.
+We recommend adding the following setting to `~/.config/fish/config.fish`:
 
 ```fish
 alias z="z-wrapper"
@@ -49,4 +49,4 @@ alias z="z-wrapper"
 ## Notes
 
 - The `z` command has been replaced by `_z`.
-- Don't modify the `$Z_CMD` variable.
+- Do not modify the `$Z_CMD` variable.
