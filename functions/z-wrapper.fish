@@ -1,7 +1,7 @@
 function z-wrapper
     # with no argument
     if test -z $argv[1]
-        if test (string match (string join '' $HOME '*') $PWD)
+        if string match -q "$HOME*" $PWD
             while test ! \( \( -d .git \) -o \( $PWD = $HOME \) \)
                 builtin cd ..
             end
